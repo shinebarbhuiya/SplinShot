@@ -1,0 +1,35 @@
+{
+    "name": "SplinShot",
+    "description": "Poweful Telegram Bot To Get Instagram And Google Photos",
+    "repository": "https://github.com/BugHunter0",
+    "keywords": [
+       
+        "telegram bot",
+        "pyrogram",
+        "splinshot",
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather"
+        },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+
+        {
+      	"url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+        },
+
+        {
+        "url": "https://github.com/1337w0rm/heroku-buildpack-google-chrome"
+        }
+    ]
+}
