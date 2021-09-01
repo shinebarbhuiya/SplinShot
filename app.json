@@ -17,7 +17,14 @@
         },
         "API_HASH": {
             "description": "Your API_HASH from https://my.telegram.org/apps"
+        },
+        "CHROMEDRIVER_PATH": {
+            "description": "Put '/app/.chromedriver/bin/chromedriver' here."
+        },
+        "GOOGLE_CHROME_BIN": {
+            "description": "Put '/app/.apt/usr/bin/google-chrome' here. "
         }
+        
     },
     "buildpacks": [
         {
