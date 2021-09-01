@@ -30,7 +30,7 @@
       },
 
       {
-        "url": "https://github.com/1337w0rm/heroku-buildpack-google-chrome"
+        "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
       }
     ],
     
