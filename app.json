@@ -6,7 +6,7 @@
        
         "telegram bot",
         "pyrogram",
-        "splinshot",
+        "splinshot"
     ],
     "env": {
         "BOT_TOKEN": {
